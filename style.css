@@ -1,0 +1,150 @@
+html{
+    font-family: poppins;
+}
+
+.nav-logo{
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap: 16px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-btn{
+    background-color: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid grey;
+}
+/* css hero */
+#hero{
+    display: flex;
+    align-items: center;
+}
+
+#hero .tagline{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#hero .tagline span{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: crimson;
+    padding: 4px 24px;
+    border-radius: 100px;
+}
+
+#hero .description{
+    font-family: 16px;
+}
+
+#hero .description span{
+    font-weight: 600;
+    color: crimson;
+}
+
+.btn-orange{
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.btn-white{
+    background-color: transparent;
+    color: rgb(14, 13, 13);
+    border: rgb(29, 28, 28);
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#hero .hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 60%;
+    padding: 0 32px;
+}
+
+#hero .hero-right{
+    width: 40%;
+}
+
+#hero .hero-right-bottom{
+    background-color: rgb(31, 30, 30);
+    position: relative;
+    top: 20px;
+    padding: 32px 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .project-tagline{
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.project .project-tagline span{
+    color: white;
+}
+
+.btn-yellow{
+    background-color: yellow;
+    color: rgb(31, 30, 30);
+    position: relative;
+    top: 20px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#hero .nav-project{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 50%;
+}
+
+#hero .nav-project a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .hero-left .hero-wraper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
